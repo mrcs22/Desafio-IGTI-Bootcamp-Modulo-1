@@ -1,9 +1,9 @@
-# Desafio-IGTI-Bootcamp-Modulo-1
-   Desafio do módulo de Fundamentos (Módulo 1) no bootcamp Desenvolvedor Fullstack do IGTI 
-
+# Desafio-IGTI-Bootcamp-Modulo-1 
+   
   ## Enunciado:
     Criar uma aplicação para filtrar usuários e mostrar estatísticas a partir do filtro definido.
     
+ ## A aplicação pode ser acessada <a href="https://desafio-modulo-1.netlify.app"> aqui</a>. 
     
  ## Objetivos
   1. [x] Declarar elementos HTML como títulos, input, div, span, ul, li etc.
