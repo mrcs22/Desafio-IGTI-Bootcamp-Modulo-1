@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-width: 600px;
+  align-items: center;
+}
+
+.contentInput {
+  display: flex;
+  margin: 0 auto;
+}
+
+#searchDiv {
+  margin-top: -10px;
+}
+
+#requestedName {
+  width: 50vw;
+  border: none;
+  border-bottom: grey 1px solid;
+}
+
+#requestedName:focus {
+  border-bottom: rgb(123, 238, 123) 2px solid;
+}
+
+#searchButton {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.contentOutput {
+  width: 90%;
+  display: flex;
+  margin-top: 2rem;
+}
+
+#contentFiltered {
+  text-align: center;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#resultsNone {
+  display: none;
+}
+
+#contentStatistics {
+  width: 50%;
+  max-height: 10rem;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 1%;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: initial;
+}
+
+img {
+  border-radius: 50%;
+  width: 5rem;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .inputDiv {
+    width: 480px;
+    margin: 0 70px;
+  }
+
+  #requestedName {
+    width: 350px;
+  }
+}
